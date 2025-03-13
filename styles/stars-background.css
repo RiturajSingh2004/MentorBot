@@ -1,0 +1,146 @@
+/* Import Lato font */
+@import url('https://fonts.googleapis.com/css?family=Lato:300,400,700');
+
+/* Animation for the stars */
+@keyframes animStar {
+  from {
+    transform: translateY(0px);
+  }
+  to {
+    transform: translateY(-2000px);
+  }
+}
+
+.stars-container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(ellipse at bottom, #1B2735 0%, #090A0F 100%);
+  overflow: hidden;
+  z-index: -1;
+}
+
+/* Small stars */
+#stars {
+  width: 0.5px;
+  height: 0.5px;
+  background: transparent;
+  box-shadow: 1815px 482px #FFF, 1011px 138px #FFF, 1944px 1655px #FFF, 1335px 1682px #FFF, 
+              178px 1349px #FFF, 1865px 401px #FFF, 310px 1394px #FFF, 140px 272px #FFF,
+              1922px 1196px #FFF, 1681px 258px #FFF, 1840px 35px #FFF, 868px 1999px #FFF, 
+              1794px 666px #FFF, 564px 1343px #FFF, 1802px 56px #FFF, 1152px 686px #FFF,
+              1208px 1462px #FFF, 1848px 1887px #FFF, 1067px 280px #FFF, 1982px 1513px #FFF,
+              392px 651px #FFF, 1953px 776px #FFF, 612px 1168px #FFF, 201px 965px #FFF,
+              1672px 392px #FFF, 517px 1829px #FFF, 352px 75px #FFF, 1765px 342px #FFF,
+              1987px 156px #FFF, 384px 1485px #FFF, 1994px 587px #FFF, 104px 311px #FFF,
+              969px 1698px #FFF, 701px 1326px #FFF, 1183px 244px #FFF, 1163px 1935px #FFF,
+              1147px 1468px #FFF, 1610px 893px #FFF, 875px 1518px #FFF, 1864px 1776px #FFF,
+              1392px 682px #FFF, 842px 1026px #FFF, 173px 940px #FFF, 453px 1285px #FFF,
+              927px 1219px #FFF, 1369px 58px #FFF, 854px 308px #FFF, 1882px 809px #FFF;
+  animation: animStar 80s linear infinite;
+}
+
+#stars:after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 0.5px;
+  height: 0.5px;
+  background: transparent;
+  box-shadow: 1815px 482px #FFF, 1011px 138px #FFF, 1944px 1655px #FFF, 1335px 1682px #FFF, 
+              178px 1349px #FFF, 1865px 401px #FFF, 310px 1394px #FFF, 140px 272px #FFF,
+              1922px 1196px #FFF, 1681px 258px #FFF, 1840px 35px #FFF, 868px 1999px #FFF, 
+              1794px 666px #FFF, 564px 1343px #FFF, 1802px 56px #FFF, 1152px 686px #FFF,
+              1208px 1462px #FFF, 1848px 1887px #FFF, 1067px 280px #FFF, 1982px 1513px #FFF,
+              392px 651px #FFF, 1953px 776px #FFF, 612px 1168px #FFF, 201px 965px #FFF,
+              1672px 392px #FFF, 517px 1829px #FFF, 352px 75px #FFF, 1765px 342px #FFF,
+              1987px 156px #FFF, 384px 1485px #FFF, 1994px 587px #FFF, 104px 311px #FFF,
+              969px 1698px #FFF, 701px 1326px #FFF, 1183px 244px #FFF, 1163px 1935px #FFF,
+              1147px 1468px #FFF, 1610px 893px #FFF, 875px 1518px #FFF, 1864px 1776px #FFF,
+              1392px 682px #FFF, 842px 1026px #FFF, 173px 940px #FFF, 453px 1285px #FFF,
+              927px 1219px #FFF, 1369px 58px #FFF, 854px 308px #FFF, 1882px 809px #FFF;
+}
+
+/* Medium stars */
+#stars2 {
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: 896px 1865px #FFF, 357px 1496px #FFF, 1993px 614px #FFF, 1308px 251px #FFF, 
+              142px 1811px #FFF, 1282px 1136px #FFF, 580px 97px #FFF, 92px 154px #FFF,
+              1127px 642px #FFF, 1204px 1127px #FFF, 1142px 303px #FFF, 1378px 1480px #FFF,
+              1237px 1009px #FFF, 1546px 1658px #FFF, 163px 271px #FFF, 213px 1186px #FFF,
+              1941px 248px #FFF, 467px 1873px #FFF, 1455px 1755px #FFF, 1451px 1595px #FFF,
+              1096px 854px #FFF, 1504px 1205px #FFF, 656px 246px #FFF, 399px 1089px #FFF,
+              679px 134px #FFF, 1200px 1258px #FFF, 1821px 698px #FFF, 15px 1926px #FFF,
+              720px 927px #FFF, 1828px 899px #FFF, 1557px 843px #FFF, 1160px 472px #FFF;
+  animation: animStar 120s linear infinite;
+}
+
+#stars2:after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 1px;
+  height: 1px;
+  background: transparent;
+  box-shadow: 896px 1865px #FFF, 357px 1496px #FFF, 1993px 614px #FFF, 1308px 251px #FFF, 
+              142px 1811px #FFF, 1282px 1136px #FFF, 580px 97px #FFF, 92px 154px #FFF,
+              1127px 642px #FFF, 1204px 1127px #FFF, 1142px 303px #FFF, 1378px 1480px #FFF,
+              1237px 1009px #FFF, 1546px 1658px #FFF, 163px 271px #FFF, 213px 1186px #FFF,
+              1941px 248px #FFF, 467px 1873px #FFF, 1455px 1755px #FFF, 1451px 1595px #FFF,
+              1096px 854px #FFF, 1504px 1205px #FFF, 656px 246px #FFF, 399px 1089px #FFF,
+              679px 134px #FFF, 1200px 1258px #FFF, 1821px 698px #FFF, 15px 1926px #FFF,
+              720px 927px #FFF, 1828px 899px #FFF, 1557px 843px #FFF, 1160px 472px #FFF;
+}
+
+/* Large stars */
+#stars3 {
+  width: 1.5px;
+  height: 1.5px;
+  background: transparent;
+  box-shadow: 314px 1366px #FFF, 1900px 435px #FFF, 975px 876px #FFF, 1015px 1001px #FFF,
+              1426px 55px #FFF, 1365px 655px #FFF, 1889px 1792px #FFF, 562px 1891px #FFF,
+              301px 623px #FFF, 1197px 1615px #FFF, 721px 1095px #FFF, 76px 569px #FFF,
+              1705px 1089px #FFF, 1081px 29px #FFF, 86px 786px #FFF, 1854px 584px #FFF,
+              652px 1823px #FFF, 446px 251px #FFF, 1142px 1465px #FFF, 1624px 1924px #FFF;
+  animation: animStar 180s linear infinite;
+}
+
+#stars3:after {
+  content: " ";
+  position: absolute;
+  top: 2000px;
+  width: 1.5px;
+  height: 1.5px;
+  background: transparent;
+  box-shadow: 314px 1366px #FFF, 1900px 435px #FFF, 975px 876px #FFF, 1015px 1001px #FFF,
+              1426px 55px #FFF, 1365px 655px #FFF, 1889px 1792px #FFF, 562px 1891px #FFF,
+              301px 623px #FFF, 1197px 1615px #FFF, 721px 1095px #FFF, 76px 569px #FFF,
+              1705px 1089px #FFF, 1081px 29px #FFF, 86px 786px #FFF, 1854px 584px #FFF,
+              652px 1823px #FFF, 446px 251px #FFF, 1142px 1465px #FFF, 1624px 1924px #FFF;
+}
+
+.title {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  right: 0;
+  color: #FFF;
+  text-align: center;
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+  font-size: 50px;
+  letter-spacing: 10px;
+  margin-top: -60px;
+  padding-left: 10px;
+}
+
+.title span {
+  background: -webkit-linear-gradient(white, #38495a);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
