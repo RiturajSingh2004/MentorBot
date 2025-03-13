@@ -1,5 +1,5 @@
 # MentorBot
-MentorBot- Your personal mentor for AI and Mathematics and everything you want
+MentorBot- Your personal mentor for AI and Mathematics and everything you want<br>
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
